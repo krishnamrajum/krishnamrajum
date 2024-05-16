@@ -1,0 +1,327 @@
+Thu May 16 05:43:34 2024[DM_STARTUP_W_DOCBASE_OWNER_NOT_FOUND] *** warning *** : The database user, ED_stage_repository as specified by your server.ini is not a valid user as determined using the system password check api.   This will likely severly impair the operation of your docbase.
+
+
+    OpenText Documentum Content Server (version 23.4.0004.0164  Linux64.Postgres)
+    Copyright (c) 2023. OpenText Corporation
+    All rights reserved.
+
+2024-05-16T05:43:34.347616	1568[1568]	0000000000000000	[DM_SERVER_I_START_SERVER]info:  "Docbase ED_stage_repository attempting to open"
+
+2024-05-16T05:43:34.347667	1568[1568]	0000000000000000	[DM_SERVER_I_START_KEY_STORAGE_MODE]info:  "Docbase ED_stage_repository is using database for cryptographic key storage"
+
+2024-05-16T05:43:34.347679	1568[1568]	0000000000000000	[DM_SERVER_I_START_SERVER]info:  "Docbase ED_stage_repository process identity: user(dctm-customer-dev)"
+
+2024-05-16T05:43:35.775071	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Post Upgrade Processing."
+
+2024-05-16T05:43:35.780116	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Base Types."
+
+2024-05-16T05:43:35.789348	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmRecovery."
+
+2024-05-16T05:43:35.811501	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmACL."
+
+2024-05-16T05:43:35.858954	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDocbaseIdMap."
+
+2024-05-16T05:43:35.888726	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Error log streams."
+
+2024-05-16T05:43:35.888764	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmUser."
+
+2024-05-16T05:43:35.939387	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmGroup."
+
+2024-05-16T05:43:35.991348	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmSysObject."
+
+2024-05-16T05:43:36.098477	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmExprCode."
+
+2024-05-16T05:43:36.123575	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmKey."
+
+2024-05-16T05:43:36.157191	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmValueAssist."
+
+2024-05-16T05:43:36.182597	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmValueList."
+
+2024-05-16T05:43:36.216408	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmValueQuery."
+
+2024-05-16T05:43:36.250744	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmValueFunc."
+
+2024-05-16T05:43:36.275780	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmExpression."
+
+2024-05-16T05:43:36.310496	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmLiteralExpr."
+
+2024-05-16T05:43:36.339688	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmBuiltinExpr."
+
+2024-05-16T05:43:36.368931	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmFuncExpr."
+
+2024-05-16T05:43:36.412820	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmCondExpr."
+
+2024-05-16T05:43:36.451629	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmCondIDExpr."
+
+2024-05-16T05:43:36.486786	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDDInfo."
+
+2024-05-16T05:43:36.522515	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmScopeConfig."
+
+2024-05-16T05:43:36.570209	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDisplayConfig."
+
+2024-05-16T05:43:36.605543	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmNLSDDInfo."
+
+2024-05-16T05:43:36.640266	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDomain."
+
+2024-05-16T05:43:36.674267	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmAggrDomain."
+
+2024-05-16T05:43:36.716837	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmMountPoint."
+
+2024-05-16T05:43:36.749250	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmLocation."
+
+2024-05-16T05:43:36.784954	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Server Configuration."
+
+2024-05-16T05:43:36.910193	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize SMTP Configuration."
+
+2024-05-16T05:43:36.944511	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmPolicy."
+
+2024-05-16T05:43:36.994380	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDDCommonInfo."
+
+2024-05-16T05:43:37.026306	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDDAttrInfo."
+
+2024-05-16T05:43:37.065299	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDDTypeInfo."
+
+2024-05-16T05:43:37.103218	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmRelation."
+
+2024-05-16T05:43:37.178902	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmForeignKey."
+
+2024-05-16T05:43:37.213466	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmEvent."
+
+2024-05-16T05:43:37.252259	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize DQL."
+
+2024-05-16T05:43:37.257283	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmFolder."
+
+2024-05-16T05:43:37.323227	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmDocument."
+
+2024-05-16T05:43:37.382877	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Plugin Type."
+
+2024-05-16T05:43:37.419203	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmNote."
+
+2024-05-16T05:43:37.449088	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmComposite."
+
+2024-05-16T05:43:37.452087	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmStorage."
+
+2024-05-16T05:43:37.486408	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Common area."
+
+2024-05-16T05:43:37.515296	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize File Store."
+
+2024-05-16T05:43:37.568092	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Optical Store."
+
+2024-05-16T05:43:37.597808	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Linked Stores."
+
+2024-05-16T05:43:37.663396	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Distributed Stores."
+
+2024-05-16T05:43:37.762431	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Blob Stores."
+
+2024-05-16T05:43:37.798039	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize External Store."
+
+2024-05-16T05:43:37.847210	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize External File Store."
+
+2024-05-16T05:43:37.887762	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize External URL."
+
+2024-05-16T05:43:37.921381	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize External Free."
+
+2024-05-16T05:43:37.959729	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize S3 Store."
+
+2024-05-16T05:43:37.995072	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Rest Store."
+
+2024-05-16T05:43:38.031151	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmContent."
+
+2024-05-16T05:43:38.070583	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmiSubContent."
+
+2024-05-16T05:43:38.104785	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmOutputDevice."
+
+2024-05-16T05:43:38.140685	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmMethod."
+
+2024-05-16T05:43:38.175905	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmRouter."
+
+2024-05-16T05:43:38.211736	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmFederation."
+
+2024-05-16T05:43:38.246829	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmAliasSet."
+
+2024-05-16T05:43:38.280511	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmjmsconfig."
+
+2024-05-16T05:43:38.280541	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Content Addressable Storage."
+
+2024-05-16T05:43:38.317686	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Formats."
+
+2024-05-16T05:43:38.365620	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Convert."
+
+2024-05-16T05:43:38.365649	1568[1568]	0000000000000000	[DM_XFRM_W_NO_CONVERT_LOC_DEFINED]warning:  "Your server configuration does not define a conversion location -- no conversions can be performed."
+
+2024-05-16T05:43:38.365664	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Indices."
+
+2024-05-16T05:43:38.407068	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Dump Files."
+
+2024-05-16T05:43:38.462298	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Load Files."
+
+2024-05-16T05:43:38.517860	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize In Box."
+
+2024-05-16T05:43:38.563160	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Distributed References."
+
+2024-05-16T05:43:38.589269	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Client Registrations."
+
+2024-05-16T05:43:38.619500	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Client Rights."
+
+2024-05-16T05:43:38.654919	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Client Rights Domain."
+
+2024-05-16T05:43:38.688981	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Business Activities."
+
+2024-05-16T05:43:38.741164	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Business Processes."
+
+2024-05-16T05:43:38.777723	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Packages."
+
+2024-05-16T05:43:38.805902	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Workitems."
+
+2024-05-16T05:43:38.846214	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Workflows."
+
+2024-05-16T05:43:38.881331	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Audit Trail."
+
+2024-05-16T05:43:38.919249	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Clean Old Links."
+
+2024-05-16T05:43:38.922011	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Compute Internal Type Tag Cache."
+
+2024-05-16T05:43:38.954366	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize LastActionProcs."
+
+2024-05-16T05:43:38.954460	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize User Types."
+
+2024-05-16T05:43:38.954474	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Start Up - Phase 1."
+
+#    Total shared memory size used: 8147944 bytes
+#    Making /System cabinet.
+#    /System cabinet exists.
+#    Making /Temp cabinet.
+#    /Temp cabinet exists.
+#    Making /System/Methods folder.
+#    /System/Methods folder exists.
+#    Making /System/FileSystem folder.
+#    /System/FileSystem folder exists.
+#    Making /System/DataDictionary folder.
+#    /System/DataDictionary folder exists.
+#    Making /System/Procedures folder.
+#    /System/Procedures folder exists.
+#    Making /System/Procedures/Actions folder.
+#    /System/Procedures/Actions folder exists.
+#    Making /System/Cryptographic folder.
+#    /System/Cryptographic folder exists.
+#    Making /System/Cryptographic/Keys folder.
+#    /System/Cryptographic/Keys folder exists.
+#    Making /System/AcsConfig folder.
+#    /System/AcsConfig folder exists.
+#    Making /System/NetworkLocation folder.
+#    /System/NetworkLocation folder exists.
+#    Making /System/JmsConfig folder.
+#    /System/JmsConfig folder exists.
+#    Making /System/Distributed References folder.
+#    /System/Distributed References folder exists.
+#    Making /System/Distributed References/Links folder.
+#    /System/Distributed References/Links folder exists.
+#    Making /System/Distributed References/Checkout folder.
+#    /System/Distributed References/Checkout folder exists.
+#    Making /System/Distributed References/Assemblies folder.
+#    /System/Distributed References/Assemblies folder exists.
+#    Making /System/Distributed References/Workflow folder.
+#    /System/Distributed References/Workflow folder exists.
+#    Making /System/Distributed References/VDM folder.
+#    /System/Distributed References/VDM folder exists.
+#    Making /Temp/BPM folder.
+#    /Temp/BPM folder exists.
+#    Making /Temp/BPM/Method Exec Results folder.
+#    /Temp/BPM/Method Exec Results folder exists.
+#    Making /Temp/BPM/Method Exceptions folder.
+#    /Temp/BPM/Method Exceptions folder exists.
+2024-05-16T05:43:39.351893	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Start Up - Phase 2."
+
+#    Making docbase config object.
+#    Making server config object.
+2024-05-16T05:43:39.384989	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Crypto Objects."
+
+2024-05-16T05:43:39.385048	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Queue Views."
+
+2024-05-16T05:43:39.389933	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Port Info Views."
+
+2024-05-16T05:43:39.394890	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Global Cache Finalization."
+
+2024-05-16T05:43:40.101549	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize National Language Character Translation."
+
+2024-05-16T05:43:40.101908	1568[1568]	0000000000000000	[DM_CHARTRANS_I_TRANSLATOR_OPENED]info:  "Translator in directory (../install/external_apps/nls_chartrans) was added succesfully initialized.  Translator specifics: (Chararacter Translator: , Client Locale: (Windows :(4099), Version: 4.0), CharSet: ISO_8859-1, Language: English_US, UTC Offset: 0, Date Format:%2.2d/%2.2d/%2.2d %2.2d:%2.2d:%2.2d, Java Locale:en, Server Locale: (Linux :(8201), Version: 2.4), CharSet: UTF-8, Language: English_US, UTC Offset: 0, Date Format:%2.2d/%2.2d/%2.2d %2.2d:%2.2d:%2.2d, Java Locale:en, Shared Library: ../install/external_apps/nls_chartrans/unitrans.so)"
+
+2024-05-16T05:43:40.101993	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize LDAP setup."
+
+2024-05-16T05:43:40.108034	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize JMS Setup."
+
+2024-05-16T05:43:40.108070	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Distributed change-checking."
+
+2024-05-16T05:43:40.149845	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Fulltext Plugin and Configuration."
+
+2024-05-16T05:43:40.149871	1568[1568]	0000000000000000	[DM_FT_INDEX_W_NO_FULLTEXT_LOC_DEFINED]warning:  "No fulltext install location is defined in the install_location attribute of the server config. This is expected on the first startup of an upgraded or new docbase. If this warning occurs on subsequent startups, please ensure that a location is defined correctly."
+
+2024-05-16T05:43:40.149885	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Distributed Content."
+
+2024-05-16T05:43:40.158885	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Distributed Content Map."
+
+2024-05-16T05:43:40.159040	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Distributed Content Digital Signatures."
+
+2024-05-16T05:43:40.815674	1568[1568]	0000000000000000	[DM_OBJ_MGR_E_FETCH_FAIL]error:  "attempt to fetch object with handle 0b0129498000010d failed"
+
+2024-05-16T05:43:40.815705	1568[1568]	0000000000000000	[DM_SYSOBJECT_E_CANT_FETCH_INVALID_ID]error:  "Cannot fetch a sysobject - Invalid object ID 0b0129498000010d"
+
+2024-05-16T05:43:40.815722	1568[1568]	0000000000000000	[DM_SYSOBJECT_E_CANT_FETCH_FOLDER]error:  "Failed to fetch the folder '0b0129498000010d'."
+
+2024-05-16T05:43:40.815762	1568[1568]	0000000000000000	[DM_SESSION_E_INIT_FAILURE1]error:  "Failure to complete Distributed Content Digital Signatures initialization."
+
+2024-05-16T05:43:40.820063	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Acs Config List."
+
+2024-05-16T05:43:40.820090	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmLiteSysObject."
+
+2024-05-16T05:43:40.825157	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize dmBatchManager."
+
+2024-05-16T05:43:40.830586	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Partition Scheme."
+
+2024-05-16T05:43:40.835613	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Critical Event Registry."
+
+2024-05-16T05:43:40.835636	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Transaction Tracking Event Registry."
+
+2024-05-16T05:43:40.835661	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Initialze External User Event Set."
+
+2024-05-16T05:43:40.838659	1568[1568]	0000000000000000	[DM_SESSION_I_INIT_BEGIN]info:  "Initialize Authentication Plugins."
+
+2024-05-16T05:43:40.877930	1568[1568]	0000000000000000	[DM_SESSION_I_AUTH_PLUGIN_LOADED]info:  "Loaded Authentication Plugin with code 'dm_krb' (/opt/dctm/dba/auth/libkerberos.so)."
+
+2024-05-16T05:43:40.877953	1568[1568]	0000000000000000	[DM_SESSION_I_AUTH_PLUGIN_LOAD_INIT]info:  "Authentication plugin ( 'dm_krb' ) was disabled. This is expected if no keytab file(s) at location (/opt/dctm/dba/auth/kerberos).Please refer the content server installation guide."
+
+2024-05-16T05:43:40.887636	1568[1568]	0000000000000000	[DM_SERVER_I_START_SERVER]info:  "Docbase ED_stage_repository opened"
+
+2024-05-16T05:43:40.887690	1568[1568]	0000000000000000	[DM_SERVER_I_SERVER]info:  "Setting exception handlers to catch all interrupts"
+
+2024-05-16T05:43:40.887703	1568[1568]	0000000000000000	[DM_SERVER_I_START]info:  "Starting server using service name:  dm_ED_stage_repository"
+
+2024-05-16T05:43:41.004891	1568[1568]	0000000000000000	[DM_SERVER_I_LAUNCH_MTHDSVR]info:  "Launching Method Server succeeded."
+
+[Warning]Hostname Resolution for IPV6 failed: -2 for host (null) 
+2024-05-16T05:43:41.023434	1568[1568]	0000000000000000	[DM_SERVER_I_LISTENING]info:  "The server is listening on network address (Service Name: dm_ED_stage_repository, Host Name: dcs-pg-0 :V4 IP)"
+
+2024-05-16T05:43:42.080804	1568[1568]	0000000000000000	[DM_WORKFLOW_I_AGENT_START]info:  "Workflow agent master (pid : 1614, session 0101294980000007) is started sucessfully."
+IsProcessAlive: Process ID 0 is not > 0
+2024-05-16T05:43:42.081346	1568[1568]	0000000000000000	[DM_WORKFLOW_I_AGENT_START]info:  "Workflow agent worker (pid : 1615, session 010129498000000a) is started sucessfully."
+IsProcessAlive: Process ID 0 is not > 0
+2024-05-16T05:43:43.082052	1568[1568]	0000000000000000	[DM_WORKFLOW_I_AGENT_START]info:  "Workflow agent worker (pid : 1633, session 010129498000000b) is started sucessfully."
+IsProcessAlive: Process ID 0 is not > 0
+2024-05-16T05:43:44.082805	1568[1568]	0000000000000000	[DM_WORKFLOW_I_AGENT_START]info:  "Workflow agent worker (pid : 1651, session 010129498000000c) is started sucessfully."
+2024-05-16T05:43:45.082936	1568[1568]	0000000000000000	[DM_SERVER_I_START]info:  "Sending Initial Docbroker check-point "
+
+2024-05-16T05:43:45.093891	1568[1568]	0000000000000000	[DM_MQ_I_DAEMON_START]info:  "Message queue daemon (pid : 1671, session 0101294980000456) is started sucessfully."
+2024-05-16T05:43:45.166476	1670[1670]	0101294980000003	[DM_DOCBROKER_I_PROJECTING]info:  "Sending information to Docbroker located on host (dbr-0.dbr.dctm-customer-dev.svc.kubernetes.local) with port (1489).  Information: (Config(ED_stage_repository), Proximity(1), Status(Open), Dormancy Status(Active))."
+2024-05-16T05:43:45.210501	1670[1670]	0101294980000003	[DM_DOCBROKER_I_PROJECTING]info:  "Sending information to Docbroker located on host (dbr-0.dbr.dctm-customer-dev.svc.kubernetes.local) with port (1491).  Information: (Config(ED_stage_repository), Proximity(1), Status(Open), Dormancy Status(Active))."
+2024-05-16T05:46:20.437553	1998[1998]	0101294980a5d109	[DM_SESSION_E_LAUNCH_VALIDATION]error:  "Unable to launch the external user validation program: /opt/dctm/dba/dm_check_password.  Operating System Error: No Error Message Available"
+
+2024-05-16T05:51:33.602127	2398[2398]	0101294980a5d114	[DM_SESSION_E_LAUNCH_VALIDATION]error:  "Unable to launch the external user validation program: /opt/dctm/dba/dm_check_password.  Operating System Error: No Error Message Available"
+
+2024-05-16T05:56:46.442410	2838[2838]	0101294980a5d120	[DM_SESSION_E_LAUNCH_VALIDATION]error:  "Unable to launch the external user validation program: /opt/dctm/dba/dm_check_password.  Operating System Error: No Error Message Available"
+
+2024-05-16T06:02:04.940857	3234[3234]	0101294980a5d12b	[DM_SESSION_E_LAUNCH_VALIDATION]error:  "Unable to launch the external user validation program: /opt/dctm/dba/dm_check_password.  Operating System Error: No Error Message Available"
+
+2024-05-16T06:07:18.330214	3674[3674]	0101294980a5d137	[DM_SESSION_E_LAUNCH_VALIDATION]error:  "Unable to launch the external user validation program: /opt/dctm/dba/dm_check_password.  Operating System Error: No Error Message Available"
+
+2024-05-16T06:12:30.354724	4070[4070]	0101294980a5d142	[DM_SESSION_E_LAUNCH_VALIDATION]error:  "Unable to launch the external user validation program: /opt/dctm/dba/dm_check_password.  Operating System Error: No Error Message Available"
+

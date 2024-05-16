@@ -1,0 +1,169 @@
+Thu May 16 05:42:59 AM UTC 2024 In cs_startup.sh
+Thu May 16 05:42:59 AM UTC 2024 Renaming user dmadmin to dctm-customer-dev
+dctm-customer-dev ALL=NOPASSWD:    ALL
+Changing password for user dctm-customer-dev.
+passwd: all authentication tokens updated successfully.
+Thu May 16 05:42:59 AM UTC 2024 Docbase is installed with dctm-customer-dev
+Thu May 16 05:42:59 AM UTC 2024 Documentum configuration/startup with dctm-customer-dev
+Thu May 16 05:42:59 AM UTC 2024 ---------------------------------------------------------------------------------------
+/opt/dctm_docker/kube_cs.sh: line 3090: $logfile: ambiguous redirect
+Thu May 16 05:42:59 AM UTC 2024 initialize
+/opt/dctm_docker/kube_cs.sh: line 3090: $logfile: ambiguous redirect
+Thu May 16 05:42:59 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:42:59 AM UTC 2024 validate_inputs
+Thu May 16 05:42:59 AM UTC 2024 Validating database server on rds-cs-dctm-dev-cluster-auroradbcluster-y3wesqllvdev.cluster-cmjdd4izaqaz.ap-southeast-2.rds.amazonaws.com:5432 is running..
+Thu May 16 05:42:59 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:42:59 AM UTC 2024 ping_database_server
+Thu May 16 05:42:59 AM UTC 2024 Pinging rds-cs-dctm-dev-cluster-auroradbcluster-y3wesqllvdev.cluster-cmjdd4izaqaz.ap-southeast-2.rds.amazonaws.com:5432. Successful.
+Thu May 16 05:42:59 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:42:59 AM UTC 2024 probing docbroker
+Ncat: Version 7.92 ( https://nmap.org/ncat )
+Ncat: Connected to 10.198.40.130:1489.
+Ncat: 0 bytes sent, 0 bytes received in 0.02 seconds.
+Ncat: Version 7.92 ( https://nmap.org/ncat )
+Ncat: Connected to 10.198.40.130:1490.
+Ncat: 0 bytes sent, 0 bytes received in 0.02 seconds.
+Thu May 16 05:42:59 AM UTC 2024 Probing dbr.dctm-customer-dev.svc.kubernetes.local is successful.
+Thu May 16 05:42:59 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:42:59 AM UTC 2024                        [cleanUpCrytographicKeyandCertificate]
+Thu May 16 05:42:59 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:42:59 AM UTC 2024 crytpgraphicKeyandCerticate were deleted
+Thu May 16 05:42:59 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:42:59 AM UTC 2024 Run rngd command
+Thu May 16 05:42:59 AM UTC 2024 containername: dcs-pg containerlength: 6
+Thu May 16 05:42:59 AM UTC 2024 host index is 0
+Thu May 16 05:42:59 AM UTC 2024 Creating folder /opt/dctm/data/aek_upgrade_files
+ext docbroker ip : 10.198.40.130
+Thu May 16 05:42:59 AM UTC 2024 server config name is ED_stage_repository
+Thu May 16 05:42:59 AM UTC 2024 docbase already installed
+Thu May 16 05:42:59 AM UTC 2024 Updating odbc.ini
+Thu May 16 05:42:59 AM UTC 2024 Removing old custom scripts and copying custom script from PVC to local
+Thu May 16 05:43:01 AM UTC 2024 custom_script_execution
+In 10pedeploy.sh
+Updating xcpconfig.properties file
+[1;34m/opt/dctm_docker/custom_script_pvc/pe_installer/xcpconfig.properties updated successfully[0m
+In prehook 10pedeploy.sh
+[1;34mPE backup files exists. Copying WAR (restart or upgrade mode)[0m
+Thu May 16 05:43:02 AM UTC 2024 custom script succeeded: /opt/dctm_docker/custom_script_pvc/10pedeploy.sh
+In 20d2deploy.sh
+Create the target directory for the D2 installation.
+20d2deploy.sh prehook
+BPM enabled
+Executing prehook(only for restart)
+The D2 install log name is 20d2deploy_prehook_install.log
+Picked up JAVA_TOOL_OPTIONS: -Djava.locale.providers=COMPAT,SPI --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-exports=java.base/sun.security.provider=ALL-UNNAMED --add-exports=java.base/sun.security.pkcs=ALL-UNNAMED --add-exports=java.base/sun.security.x509=ALL-UNNAMED --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=java.base/sun.security.tools.keytool=ALL-UNNAMED
+Thu May 16 05:43:30 AM UTC 2024 custom script succeeded: /opt/dctm_docker/custom_script_pvc/20d2deploy.sh
+Thu May 16 05:43:30 AM UTC 2024 All custom scripts passed
+Thu May 16 05:43:30 AM UTC 2024 log4j2.properties file already exist
+Thu May 16 05:43:30 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:30 AM UTC 2024 Setting mounted folders owner as install owner
+Picked up JAVA_TOOL_OPTIONS: -Djdk.util.zip.disableZip64ExtraFieldValidation=true
+Picked up JAVA_TOOL_OPTIONS: -Djdk.util.zip.disableZip64ExtraFieldValidation=true
+Picked up JAVA_TOOL_OPTIONS: -Djdk.util.zip.disableZip64ExtraFieldValidation=true
+Picked up JAVA_TOOL_OPTIONS: -Djdk.util.zip.disableZip64ExtraFieldValidation=true
+Thu May 16 05:43:30 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:30 AM UTC 2024 Copying dba files from kube backup
+Thu May 16 05:43:30 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:30 AM UTC 2024 Setting docbase dba files permssions 
+Thu May 16 05:43:30 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:30 AM UTC 2024 Setting docbase and docbroker dba common files permssions 
+Thu May 16 05:43:30 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:30 AM UTC 2024 Copying method server configuration files
+Thu May 16 05:43:30 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:30 AM UTC 2024 handle_password_change
+Changing password for user dctm-customer-dev.
+passwd: all authentication tokens updated successfully.
+Changing password for user root.
+passwd: all authentication tokens updated successfully.
+Changing password for user postgres.
+passwd: all authentication tokens updated successfully.
+Thu May 16 05:43:31 AM UTC 2024 ===============================================================================================
+Thu May 16 05:43:31 AM UTC 2024 [upgradeCS] ==>> upgradeCS function called to CS
+Thu May 16 05:43:31 AM UTC 2024 [upgradeCS] ==>> Container name dcs-pg
+Thu May 16 05:43:31 AM UTC 2024 ===============================================================================================
+Thu May 16 05:43:31 AM UTC 2024 [upgradeCS] ==>> Current CS version 23.4
+Thu May 16 05:43:31 AM UTC 2024 [upgradeCS] ==>> Upgraded CS version 23.4
+Thu May 16 05:43:31 AM UTC 2024 ===============================================================================================
+Thu May 16 05:43:31 AM UTC 2024 [upgradeCS] ==>> Container name dcs-pg
+Thu May 16 05:43:31 AM UTC 2024 [upgradeCS] ==>> CS upgrade finished
+Thu May 16 05:43:31 AM UTC 2024 ===============================================================================================
+Thu May 16 05:43:31 AM UTC 2024 ---------------------------------------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Djdk.util.zip.disableZip64ExtraFieldValidation=true
+Thu May 16 05:43:31 AM UTC 2024 App Server Password is valid
+Thu May 16 05:43:31 AM UTC 2024 update_app_server_credential
+Picked up JAVA_TOOL_OPTIONS: -Djdk.util.zip.disableZip64ExtraFieldValidation=true
+Thu May 16 05:43:31 AM UTC 2024 App server Credential update is successful
+Thu May 16 05:43:31 AM UTC 2024 Update server.ini files
+Thu May 16 05:43:31 AM UTC 2024 client_docbroker_host dbr-0.dbr.dctm-customer-dev.svc.kubernetes.local
+Thu May 16 05:43:31 AM UTC 2024 Startup file already exist
+Thu May 16 05:43:31 AM UTC 2024 Changing permistions to modified files
+Thu May 16 05:43:31 AM UTC 2024 Updating odbc.ini
+Thu May 16 05:43:31 AM UTC 2024 Old hostname is : cont-npstgp01
+Picked up JAVA_TOOL_OPTIONS: -Djava.locale.providers=COMPAT,SPI --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-exports=java.base/sun.security.provider=ALL-UNNAMED --add-exports=java.base/sun.security.pkcs=ALL-UNNAMED --add-exports=java.base/sun.security.x509=ALL-UNNAMED --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=java.base/sun.security.tools.keytool=ALL-UNNAMED
+
+Welcome... Migration Utility invoked.
+ 
+Created new log File: /opt/dctm/product/23.4/install/external_apps/MigrationUtil/MigrationUtilLogs/DocbaseIdChange.log
+Skipping Docbase ID Changes...
+
+Changing Host Name...
+Created new log File: /opt/dctm/product/23.4/install/external_apps/MigrationUtil/MigrationUtilLogs/HostNameChange.log
+Finished changing host name...Please check log file for more details/errors
+Finished changing Host Name...
+
+Skipping Install Owner Change...
+
+Skipping Server Name Change...
+
+Skipping Docbase Name Change...
+
+Skipping Docker Seamless Upgrade scenario...
+
+Migration Utility completed.
+ 
+Thu May 16 05:43:33 AM UTC 2024 Revert /opt/dctm/product/23.4/install/external_apps/MigrationUtil/config.xml
+Thu May 16 05:43:33 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:33 AM UTC 2024 prepare_start_method_server
+Thu May 16 05:43:33 AM UTC 2024 ------------- handle_s3multipart ---------------
+Thu May 16 05:43:33 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:33 AM UTC 2024 add_hosts_aliases
+Thu May 16 05:43:33 AM UTC 2024 MAX_REPLICA: 10
+Thu May 16 05:43:33 AM UTC 2024 Current Host
+dcs-pg-1 dcs-pg-1.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-2 dcs-pg-2.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-3 dcs-pg-3.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-4 dcs-pg-4.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-5 dcs-pg-5.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-6 dcs-pg-6.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-7 dcs-pg-7.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-8 dcs-pg-8.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+dcs-pg-9 dcs-pg-9.dcs-pg.dctm-customer-dev.svc.kubernetes.local
+Thu May 16 05:43:33 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:33 AM UTC 2024 handle_start_docbase
+dm_ED_stage_repository 50000/tcp
+dm_ED_stage_repository_s 50001/tcp
+Thu May 16 05:43:33 AM UTC 2024 client_docbroker_host dbr-0.dbr.dctm-customer-dev.svc.kubernetes.local
+Thu May 16 05:43:33 AM UTC 2024 [handle_start_docbase] -->> upd_last_chg_time_from_db with vlaue T.
+Thu May 16 05:43:33 AM UTC 2024 Updating mail_notification flag in server.ini
+Thu May 16 05:43:33 AM UTC 2024 Starting Docbase
+
+
+A passphrase must be entered when prompted with the -passphrase option
+** Operation failed ** 
+[DM_CRYPTO_E_NO_PASSWORD_ENTERED]error:  "No password was entered."
+starting Documentum server for repository: [ED_stage_repository]
+with server log: [/opt/dctm/dba/log/ED_stage_repository.log]
+server pid: 1568
+Thu May 16 05:43:34 AM UTC 2024 checking CS status...
+Picked up JAVA_TOOL_OPTIONS: -Djava.locale.providers=COMPAT,SPI --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-exports=java.base/sun.security.provider=ALL-UNNAMED --add-exports=java.base/sun.security.pkcs=ALL-UNNAMED --add-exports=java.base/sun.security.x509=ALL-UNNAMED --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=java.base/sun.security.tools.keytool=ALL-UNNAMED
+Thu May 16 05:43:48 AM UTC 2024 CS status succeeded
+Thu May 16 05:43:48 AM UTC 2024 Docbase Started
+Thu May 16 05:43:48 AM UTC 2024 Executing the dm_acs_install.ebs script.
+Picked up JAVA_TOOL_OPTIONS: -Djava.locale.providers=COMPAT,SPI --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-exports=java.base/sun.security.provider=ALL-UNNAMED --add-exports=java.base/sun.security.pkcs=ALL-UNNAMED --add-exports=java.base/sun.security.x509=ALL-UNNAMED --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=java.base/sun.security.tools.keytool=ALL-UNNAMED
+Thu May 16 05:43:50 AM UTC 2024 ==================================================================================
+Thu May 16 05:43:50 AM UTC 2024 ERROR: The dm_acs_install script has failed. Please check dm_acs_install.out file at container's /opt/dctm/dba/config/ED_stage_repository/dm_acs_install.out. and run it manually
+cat: dm_acs_install.out: No such file or directory
+Thu May 16 05:43:50 AM UTC 2024 ==================================================================================
+Thu May 16 05:43:50 AM UTC 2024 ---------------------------------------------------------------------------------------
+Thu May 16 05:43:50 AM UTC 2024 exitProgram
+Thu May 16 05:43:50 AM UTC 2024 cs_startup.sh failed
